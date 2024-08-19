@@ -91,6 +91,9 @@ let name2 = "John";
 
 console.log(name1 === name2);
 
-//let name2L = name2.toLowerCase();
+//dando per scontato che la variabile sia stata già data come nel caso dell'esercizio, aLLora la soluzione può essere la seguente:
 
 console.log(name1 === name2.toLowerCase());
+
+//diversamente, putando che gli utenti possano cambiare le variabili, si  imposta il toLowerCase() a entrambe le domande
+console.log(name1.toLowerCase() === name2.toLowerCase());
